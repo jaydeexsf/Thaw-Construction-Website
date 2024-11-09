@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
 :root {
-  --yellow:#f5bf23;
+  --yellow:#8a9a76;
   --black:#111;
   --white:#fff;
   --light-color:#666;
@@ -961,3 +961,17 @@ section {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+#search-btn {
+  display: none;
+}
+
+/* ////// */
+
+/* thaw construction colors */
+
+/* Black: #000000
+Sage Green (Darker Shade): #8a9a76
+Light Gray: #bdbdbf
+Sage Green (Medium Shade): #90a07b
+Sage Green (Light Shade): #8f9f7a */
