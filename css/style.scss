@@ -843,3 +843,38 @@ section{
    }
 
 }
+
+.site-footer {
+   background-color: var(--yellow);
+   color: #fff;
+   padding: 20px 0;
+   text-align: center;
+
+   .footer-nav {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 10px;
+
+      .footer-link {
+         color: #fff;
+         text-decoration: none;
+         font-weight: 600;
+         transition: color 0.3s;
+
+         &:hover {
+            color: #ffd700;
+         }
+      }
+   }
+
+   .footer-credit {
+      font-size: 0.9em;
+      color: #ccc;
+
+      .author-name {
+         color: #ffd700;
+         font-weight: 600;
+      }
+   }
+}

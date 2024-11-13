@@ -506,6 +506,7 @@ section {
   text-align: center;
   background: var(--light-bg);
   padding: 3rem 2rem;
+  height: 200px;
 }
 
 .about .box-container .box h3 {
@@ -826,7 +827,7 @@ section {
 
 .blogs .slide .image {
   height: 25rem;
-  width: 90%;
+  width: 100%;
   overflow: hidden;
   margin: 0 auto;
   margin-bottom: -3rem;
@@ -971,6 +972,47 @@ section {
   display: none;
 }
 
+.site-footer {
+  background-color: var(--black);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.site-footer .footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.site-footer .footer-nav .footer-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.site-footer .footer-nav .footer-link:hover {
+  color: var(--yellow);
+}
+
+.site-footer .footer-credit {
+  font-size: 0.9em;
+  color: rgb(216, 215, 215);
+}
+
+.site-footer .footer-credit .author-name {
+  color: var(--yellow);
+  font-weight: 600;
+}
+
+/* .tnt {
+  background-color: green;
+  border-left: 50px red solid;
+  border-right: 50px red solid;
+
+} */
 
 /* ////// */
 
